@@ -1,6 +1,6 @@
 = yelp
 
-Description goes here.
+Very simple wrapper around the Yelp V2 API. Not meant to be comprehensive - I built this for an app I needed and thus only the parts of the API necessary. Please contribute other endpoints/rules if you require it.
 
 == Contributing to yelp
  
