@@ -2,6 +2,14 @@
 
 Very simple wrapper around the Yelp V2 API. Not meant to be comprehensive - I built this for an app I needed and thus only the parts of the API necessary. Please contribute other endpoints/rules if you require it.
 
+Add new endpoints to the yelp/ directory.
+
+== Usage
+
+  require 'yelp'
+  yelp = Yelp::Search.new(:consumer_key => key, :consumer_secret => sekret, :token => tokan, :token_secret => token_sekrat)
+  yelp.find(:term => 'restaurants', :location => 'new york') # returns JSON object
+
 == Contributing to yelp
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
