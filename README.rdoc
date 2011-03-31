@@ -6,8 +6,13 @@ Add new endpoints to the yelp/ directory.
 
 == Usage
 
+NOTE: This also supports using environment variables for each field prefixed with YELP (e.g. YELP_CONSUMER_SECRET). In other words, if you specify all four values you should not need to pass parameters to the constructor.
+
   require 'yelp'
-  yelp = Yelp::Search.new(:consumer_key => key, :consumer_secret => sekret, :token => tokan, :token_secret => token_sekrat)
+  yelp = Yelp::Search.new(:consumer_key => key, 
+                          :consumer_secret => sekret, 
+                          :token => tokan, 
+                          :token_secret => token_sekrat)
   yelp.find(:term => 'restaurants', :location => 'new york') # returns JSON object
 
 == Contributing to yelp
