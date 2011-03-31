@@ -16,7 +16,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/rdeshpande/yelp"
   gem.license = "MIT"
   gem.summary = %Q{Simple wrapper around the Yelp V2 API}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.description = %Q{Ruby wrapper that allows you to interface with the new, beta Yelp API. Included is the Search API, but the project can be easily modified to support the other endpoints.}
   gem.email = "rohan.deshpande@gmail.com"
   gem.authors = ["Rohan Deshpande"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
