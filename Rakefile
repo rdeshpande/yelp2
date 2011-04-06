@@ -12,8 +12,8 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "yelp"
-  gem.homepage = "http://github.com/rdeshpande/yelp"
+  gem.name = "yelp2"
+  gem.homepage = "http://github.com/rdeshpande/yelp2"
   gem.license = "MIT"
   gem.summary = %Q{Simple wrapper around the Yelp V2 API}
   gem.description = %Q{Ruby wrapper that allows you to interface with the new, beta Yelp API. Included is the Search API, but the project can be easily modified to support the other endpoints.}
@@ -47,7 +47,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "yelp #{version}"
+  rdoc.title = "yelp2 #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
