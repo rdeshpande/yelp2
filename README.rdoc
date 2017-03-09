@@ -25,6 +25,10 @@ NOTE: This also supports using environment variables for each field prefixed wit
 * Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
 * Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
 
+== API Testing
+
+RapidAPI: https://rapidapi.com/package/YelpAPI/functions?utm_source=YelpGithub&utm_medium=button&utm_content=Vender_GitHub
+
 == Copyright
 
 Copyright (c) 2011 Rohan Deshpande. See LICENSE.txt for
